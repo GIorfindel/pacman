@@ -775,7 +775,7 @@ var PACMAN = (function () {
     var state        = WAITING,
         audio        = null,
         ghosts       = [],
-        ghostSpecs   = ["#00FFDE", "#FF0000", "#FFB8DE", "#FFB847"],
+        ghostSpecs   = ["#00FFDE", "#FF0000", "#FFB8DE", "#FFB847", "#FFB821", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847", "#FFB847"],
         eatenCount   = 0,
         level        = 0,
         tick         = 0,
@@ -1053,7 +1053,7 @@ var PACMAN = (function () {
         }
         
         map.draw(ctx);
-        dialog("Loading ...");
+        dialog("Chargement ...");
 
         var extension = Modernizr.audio.ogg ? 'ogg' : 'mp3';
 
